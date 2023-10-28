@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.converter {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="number"] {
+    width: calc(100% - 16px);
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer {
+background-color: #363333;
+color: #fff;
+text-align: center;
+padding: 20px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.social-links {
+margin-bottom: 10px;
+color: #45a049;
+}
+
+.social-links a {
+margin: 0 10px;
+color: #fff;
+text-decoration: none;
+}
+
+.social-links a:hover {
+color: #fff;
+}
+
+.footer-text {
+font-size: 14px;
+}
+
+.footer-text a {
+color: #6f78eb;
+text-decoration: none;
+}
+
+.footer-text a:hover {
+text-decoration: underline;
+}
+
